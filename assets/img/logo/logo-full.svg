@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <polygon points="40,8 62,20 62,44 40,56 18,44 18,20" fill="none" stroke="url(#hexGrad)" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="40" cy="8"  r="3" fill="#ea580c"/>
+  <circle cx="62" cy="20" r="3" fill="#ea580c"/>
+  <circle cx="62" cy="44" r="3" fill="#ea580c"/>
+  <circle cx="40" cy="56" r="3" fill="#ea580c"/>
+  <circle cx="18" cy="44" r="3" fill="#ea580c"/>
+  <circle cx="18" cy="20" r="3" fill="#ea580c"/>
+  <polygon points="34,24 34,44 38,40 41,47 44,46 41,39 46,39" fill="#ea580c" filter="url(#glow)"/>
+  <text x="76" y="34" font-family="Orbitron, monospace" font-size="18" font-weight="700" fill="#f1f5f9" letter-spacing="1">Iron</text>
+  <text x="76" y="52" font-family="Orbitron, monospace" font-size="18" font-weight="700" fill="#ea580c" letter-spacing="1">Click</text>
+</svg>
